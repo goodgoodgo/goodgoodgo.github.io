@@ -1,0 +1,154 @@
+.head>.navbar{
+	background-color: #008def;
+}
+li:nth-child(1){
+	margin-left: 150px;
+}
+li+li{
+	margin-left: 100px;
+}
+#row0{
+	width: 1666.890px;
+}
+.nav-link{
+	font-size: 20px;
+}
+.box{
+	margin-left: 150px;
+	height: 300px;
+	width: 700px;
+	background-color: #666666;
+}
+#row1{
+	margin-top: 120px;
+}
+#lwj{
+	background-color:#f4f4f4 ;
+	margin-left: 40px;
+}
+#row3{
+	margin-left: 16px;
+	margin-top: 35px;
+}
+#row2{
+	margin-top: 20px;
+	font-size: 25px;
+}
+.box1{
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #008def;
+	width: 250px;
+	height: 71px;
+}
+#text{
+	font-size: 30px;
+}
+#row4{
+	margin-top: 20px;
+}
+.box2{
+	margin-left: 150px;
+	height: 1450px;
+	width: 870px;
+	background-color: white;
+}
+#row5{
+	margin-left: 10px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+#row6{
+	margin-left: 30px;
+}
+#row7{
+	margin-top: 30px;
+	width: 867.867px;
+	margin-left: 0.5px;
+}
+#row7{
+	margin-top: 30px;
+	width: 867.867px;
+	margin-left: 0.5px;
+}
+.box4{
+	width: 230px;
+	height: 150px;
+	background-color: #666666;
+}
+#text4{
+	background-color: #ffd6c4;
+	margin-left: 25px;
+	color: white;
+}
+#ppt{
+	margin-left: 13px;
+}
+#row9{
+	margin-top: 20px;
+	margin-left: 31px;
+}
+.box5{
+	width: 100px;
+	height: 200px;
+	background-color: #666666;
+}
+#ppt0{
+	margin-top: 50px;
+}
+#bo{
+	margin-top: 112px;
+}
+.box6{
+	width: 230px;
+	height: 150px;
+	background-color: #f4f4f4;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#row10{
+	margin-top: 20px;
+}
+.box7{
+	width: 400px;
+	height: 150px;
+	background-color: #666666;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#row11{
+	margin-left: 10px;
+	width: 460px;
+	border-style: solid;
+	border-style: #666666;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-bottom-color:#008def ;
+}
+#row12{
+	margin-left: 30px;
+	margin-top: 10px;
+	font-weight: 900;
+}
+#row13{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#row15{
+	margin-left: 10px;
+	width: 460px;
+	background-color: #008def;
+	height: 2px;
+}
+#row16{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 460px;
+	border-style: solid;
+	border-style: #666666;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-bottom-color:#008def ;
+}

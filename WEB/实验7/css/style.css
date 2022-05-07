@@ -1,0 +1,113 @@
+.box{
+    position: absolute;
+    background:url("../img/2.jpg") 0 / cover fixed;
+    filter: blur(20px);
+    z-index: 2;
+     opacity: 0.9;
+}
+.g-index>.m-test{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    z-index: 1;
+    margin-top: 30px;
+}
+.box {
+    height: 300px;
+    width: 500px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.g-index>.m-test>li{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    list-style: none;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.g-index>.m-test>li:nth-child(6){
+    margin-left: 50px;
+}
+.g-index>.m-test>li+li{
+    margin-left: 10px;
+}
+.m-img>.m-jpg{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 90px;
+    z-index: 3;
+}
+.f1{
+    margin-left: 50px;
+}
+.m-bum>span{
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+td{
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+    border-spacing: 0;
+    box-sizing: border-box;
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #DDDDDD;
+    padding: 5px 5px;
+    line-height: 28px;
+    vertical-align: middle;
+    color: #666;
+}
+.t-del{
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    display: inline-block;
+    border-style: solid;
+    padding: 6px 10px;
+    border-width: 1px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    transition: all .3s ease;
+    z-index: 11;
+    cursor: pointer;
+    color: #fff!important;
+    background: #d15b47!important;
+    border-color: #d15b47;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    color: #393939;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+    border-spacing: 0;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.m-tb{
+    margin-top: 10px;
+    border-style: solid;
+    border-top-color: #9f8e8e;
+    border-width: thin;
+}
+#add{
+    margin-top: 10px;
+    border-style: none;
+}

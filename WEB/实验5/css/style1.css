@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2022-03-30 11:20:44
+ * @version $Id$
+ */
+.g-index{
+	display: flex;
+	flex-direction:column-reverse;
+	background-color:#FDFCEA;
+	width: 390px;
+	height: 370px;
+	border-style: solid;
+	border-width: thin;
+}
+.m{
+	border-top-style: solid;
+	border-width: thin;
+	width: 390px;
+	height: 110px;
+	background-color: #FBE4EE;
+}
+.m>li+li{
+	margin-top: 10px;
+}
+.m>li{
+	border-style: solid;
+	border-width: thin;
+	margin-top: 10px;
+	margin-left: 10px;
+	list-style: none;
+	width: 370px;
+	height:20px ;
+	background-color: white;
+}
+.m>li:nth-child(3){
+	height: 30px;
+}
