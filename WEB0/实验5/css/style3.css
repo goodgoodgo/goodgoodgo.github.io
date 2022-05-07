@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2022-03-30 18:20:41
+ * @version $Id$
+ */
+.g{
+    position: absolute;
+    background:url("../imgg/e06-3.png") no-repeat ;
+    width: 652px;
+    height: 422px;
+    opacity: 0.7;
+}
+.g-index{
+	display: flex;
+	flex-wrap:wrap;
+	width: 650px;
+    height: 421px;
+    border-style: solid;
+    border-color: #c0c0c0;
+}
+.g-index>box+box{
+	margin-left: 6px;
+}
+.g-index>box{
+	display: flex;
+	flex-direction:column-reverse;
+	border-style: solid;
+	border-color: #c0c0c0;
+	margin-top: 6px;
+	margin-left: 4px;
+	list-style: none;
+	flex-wrap:wrap;
+	width: 204px;
+	height: 198px;
+}
+.g-index>box>li+li{
+	margin-top: 5px;
+}
+.g-index>box>li{
+	color: black;
+	font-size: 5px;
+    margin-top: 8px;
+    margin-left: 5px;
+    list-style: none;
+    width: 192px;
+    height: 9px;
+    background-color: white;
+}
+.g-index>box>li:nth-child(1){
+	height: 20px;
+	margin-bottom: 3px;
+	margin-right: 3px;
+}
+.g-index>box>li>.lf{
+	color: #ffc0cb;
+	font-size: 21px;
+}
+.g-index>box>li>.mid{
+	text-decoration:line-through;
+	color: #808080;
+	margin-left: 0px;
+	font-size: 8px;
+}
+.g-index>box>li>.rt{
+	color: #808080;
+	margin-left: 19px;
+	font-size: 5px;
+}

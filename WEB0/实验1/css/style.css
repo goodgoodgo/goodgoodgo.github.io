@@ -1,0 +1,150 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+}
+.my-book{
+    position: absolute;
+    background:url("img/bk1.jpg") no-repeat;
+    width: 1063px;
+    height: 544px;
+    opacity: 0.99;
+}
+ul{
+    list-style: none;
+    line-height :1.2;
+    padding-top:6px;
+    font-size: 10px;
+    padding-left: 35px;
+}
+li{
+     float: left;
+     margin-left: 30px;
+}
+.f2{
+    margin: 0;
+    padding: 43px 33px;
+    font-size: 13px;
+}
+.f3{
+    color: #00001;
+    margin-top: -41px;
+    padding: 0px 33px;
+    font-size: 19px;
+    font-weight: 560;
+}
+.f4{
+    margin-top: -35px;
+    padding: 42px 32px;
+    font-size: 14px;
+    font-weight: 350;
+}
+.f5{
+    margin-top: -89px;
+    padding: 62px 32px;
+    font-size: 13px;
+}
+.f6{
+    margin-top: -121px;
+    padding: 62px 32px;
+    font-size: 13px;
+}
+.f7{
+    margin-top: -73px;
+    padding: 62px 32px;
+    font-size: 13px;
+}
+.f8{
+     margin-top: -73px;
+    padding: 16px 35px;
+    font-size: 13px;
+}
+.f16{
+    color: black;
+    margin-top: -121px;
+    padding: 62px 32px;
+    font-size: 19px;
+    font-weight: 560;
+}
+.f9{
+    margin-top: -16px;
+    padding: 16px 32px;
+    font-size: 13px;
+}
+.f10{
+    margin-top: -28px;
+    padding: 16px 32px;
+    font-size: 13px;
+}
+.f11{
+    margin-top: 17px;
+    padding: 16px 32px;
+    font-size: 13px;
+}
+.f12{
+   
+     margin-top: -13px;
+    padding: 0px 31px;
+    font-size: 19px;
+    font-weight: 560;
+}
+.f13{
+   margin-top: -10px;
+    padding: 16px 34px;
+    font-size: 13px;
+}
+.f14{
+   margin-top: -15px;
+    padding: 16px 33px;
+    font-size: 13px;
+}
+.f15{
+   margin-top: -29px;
+    padding: 16px 33px;
+    font-size: 13px;
+}
+.f17{
+    
+    margin-top: -487px;
+    margin-left: 757px;
+    padding: 42px 13px;
+    font-size: 18px;
+   font-weight: 560;
+}
+.f18{
+     margin-left: 814px;
+    padding: 42px -23px;
+    font-size: 15px;
+    margin-top: 9px;
+}
+.f19{
+     margin-left: 815px;
+    padding: 42px -23px;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.f20{
+    margin-left: 816px;
+    padding: 42px -23px;
+    font-size: 15px;
+    margin-top: 24px;
+}
+.f21{
+    margin-left: 816px;
+    padding: 42px -23px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.f22{
+    margin-top: 23px;
+    margin-left: 816px;
+    padding: 41px -4px;
+    font-size: 15px;
+    font-weight: 560;
+}
+.f23{
+    margin-top: 6px;
+    margin-left: 816px;
+    padding: 41px -4px;
+    font-size: 14px;
+    font-weight: 400;
+}

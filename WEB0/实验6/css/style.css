@@ -1,0 +1,297 @@
+@charset "UTF-8";
+body{
+    padding: 20px;
+    width: 1002px;
+}
+header>.m-tl>.m-tab>span{
+    background: #006699;
+    color: #fff;
+    padding: 4px 10px 0;
+    border-radius: 3px 3px 0 0;
+    display: block;
+    text-align: center;
+}
+header>.m-tl>.m-tip>span{
+    background: #ff6600;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 15px;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+    margin-bottom:2px ;
+}
+header>.m-tl>.m-fun>span{
+    border: 1px solid #ccc;
+    color: #666;
+    padding: 2px 4px;
+    border-radius: 3px;
+    text-align: center;
+}
+.m-tl.ui-grid-row{
+    border-bottom: 5px solid #006699;
+}
+.m-tl>.ui-grid-2,.m-tl>.ui-grid-21{
+    margin-bottom: 0;
+}
+header>.bd{
+    background-color:#F5F6F6 ;
+    height: 53px;
+    border-style:none solid  solid solid;
+    border-width: thin;
+    border-color:#CECBCE ;
+}
+header>.bd>.m-tip-lt>span{
+    font-size: 15px;
+    color: red;
+    padding: 2px 4px;
+    text-align: center;
+}
+header>.bd>.m-tip-mid>span{
+    font-size: 15px;
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+}
+header>.bd>.m-tip-rt>span{
+    width: 580px;
+    font-size: 15px;
+    color: red;
+    padding: 2px 4px;
+    text-align: center;
+}
+header>.bd>.m-tip-lt>span:nth-child(4){
+    color: black;
+}
+header>.bd>.m-tip-mid>span:nth-child(2){
+    color: red;
+}
+header>.bd>.m-tip-mid>span:nth-child(4){
+    font-weight:bold;
+}
+header>.bd>.m-tip-rt>span:nth-child(1){
+    color: black;
+}
+header>.m-ft>.m-lt{
+    text-align: right;
+    color: blue;
+    text-decoration:underline;
+}
+header>.m-ft>.m-rt{
+    color: blue;
+    text-decoration:underline;
+}
+header>.m-ft{
+    background-color:#FFFBDE ;
+    border-style:none solid  solid solid;
+    border-width: thin;
+    border-color:#CECBCE ;
+}
+section>.m-f1{
+    margin-top: 8px;
+    height: 16px;
+    background-color: #CEDCE8;
+    text-align: center;
+     font-size: 10px;
+}
+section>.m-f1>.m-x1{
+    border-style: none  solid none none ;
+    border-color: white;
+}
+section>.m-f2{
+    margin-top: 2px;
+    background-color:#F2F2F2 ;
+    border-style:none solid  solid solid;
+    border-color:#FFFFFF ;
+}
+section>.m-f2>.m-lt{
+    text-align: center;
+     font-size: 18px;
+     font-weight: bold;
+}
+section>.m-f2>.m-rt{
+    text-align:right;
+    color: blue;
+    text-decoration:underline;
+}
+section>.m-f3{
+    height: 43px;
+    margin-top: -1px;
+    border-style: none none solid  none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+     padding-bottom: 1px;
+}
+section>.m-f3>.m-x1{
+    text-align:center;
+
+    font-size: 15px;
+}
+section>.m-f3>.m-x2{
+    height: 45px;
+    border-style: none  solid none none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+    color: blue;
+}
+section>.m-f3>.m-x3{
+    height: 45px;
+}
+section>.m-f3>.m-x5{
+    height: 45px;
+}
+section>.m-f3>.m-x4{
+    height: 34px;
+    border-style: none  solid none none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+    text-align: center;
+    padding-top:11px ;
+    font-weight: bold;
+}
+section>.m-f3>.m-x3{
+    height: 45px;
+    border-style: none  solid none none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+}
+section>.m-f3>.m-x5{
+    height:45px;
+    border-style: none  solid none none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+}
+section>.m-f3>.m-x1{
+    height:45px;
+    border-style: none  solid none none ;
+    border-color: #96C7D8;
+    margin-right: 4px;
+}
+section>.m-f3>.m-x2{
+    height:45px;
+    border-style: none solid none  solid ;
+    border-color: white #C0C0C0 white #96C7D8;
+    border-left-width:2.6px;
+}
+section>.m-f3>.m-x2>span:nth-child(1){
+    font-size: 15px;
+    color: #996600;
+}
+section>.m-f3>.m-x1>span:nth-child(1){
+  font-weight: bold;
+}
+section>.m-f4{
+    margin-top: 2px;
+    background-color:#F2F2F2 ;
+    border-style:none solid  solid solid;
+    border-color:#FFFFFF ;
+}
+section>.m-f4>.m-lt{
+    padding-top: 10px;
+    text-align: center;
+}
+section>.m-f4>.m-mid1>span{
+    text-align: center;
+     font-size: 18px;
+     font-weight: bold;
+}
+section>.m-f4>.m-mid2{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+section>.m-f4>.m-rt{
+    text-align:right;
+    color: blue;
+    text-decoration:underline;
+}
+section>.m-f6{
+    height: 43px;
+    margin-top: -1px;
+    border-style: none none solid  none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+     padding-bottom: 1px;
+}
+section>.m-f6>.m-x1{
+    text-align:center;
+
+    font-size: 15px;
+}
+section>.m-f6>.m-x2{
+    height: 45px;
+    border-style: none  solid none none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+}
+section>.m-f6>.m-x3{
+    height: 45px;
+}
+section>.m-f6>.m-x5{
+    height: 45px;
+}
+section>.m-f6>.m-x4{
+    height: 34px;
+    border-style: none  solid none none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+    text-align: center;
+    padding-top:11px ;
+    font-weight: bold;
+}
+section>.m-f6>.m-x3{
+    height: 45px;
+    border-style: none  solid none none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+}
+section>.m-f6>.m-x5{
+    height:45px;
+    border-style: none  solid none none ;
+    border-color: #C0C0C0;
+    border-width: thin;
+}
+section>.m-f6>.m-x1{
+    height:45px;
+    border-style: none  solid none none ;
+    border-color: #96C7D8;
+    margin-right: 4px;
+}
+section>.m-f6>.m-x2{
+    height:45px;
+    border-style: none solid none  solid ;
+    border-color: white #C0C0C0 white #96C7D8;
+    border-left-width:2.6px;
+    color: blue;
+}
+section>.m-f6>.m-x2>span:nth-child(1){
+    font-size: 15px;
+    color: #996600;
+}
+section>.m-f6>.m-x1>span:nth-child(1){
+  font-weight: bold;
+}
+section>.m-f7{
+    margin-top: 2px;
+    background-color:#F2F2F2 ;
+    border-style:none solid  solid solid;
+    border-color:#FFFFFF ;
+}
+section>.m-f7>.m-lt{
+    padding-top: 10px;
+    text-align: center;
+}
+section>.m-f7>.m-mid1>span{
+    text-align: center;
+     font-size: 18px;
+     font-weight: bold;
+}
+section>.m-f7>.m-mid2{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+section>.m-f7>.m-rt{
+    text-align:right;
+    color: blue;
+    text-decoration:underline;
+}
